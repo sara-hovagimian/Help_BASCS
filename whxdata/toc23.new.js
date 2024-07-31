@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Ingreso","type":"item","tilePath":"","description":"","url":"BASCSHTML/Recibos.htm"},{"name":"Impresión","type":"item","tilePath":"","description":"","url":"BASCSHTML/Recibos__Impresión.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

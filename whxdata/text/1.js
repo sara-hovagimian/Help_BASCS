@@ -1,0 +1,1 @@
+rh._.exports({"0":[[" ","Autorizacion"]],"2":[[" ","Autorización de presupuestos de compra"]],"3":[[" ","Si se trabaja con autorización de componentes, los usuarios responsables de las autorizaciones deben realizar la tarea de autorización, propiamente dicha, en este punto del menú."," ","Autorizar"]],"id":"1"})

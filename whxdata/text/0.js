@@ -1,0 +1,1 @@
+rh._.exports({"0":[["Sucursales con Quick Pos"]],"1":[["Sucursales con Quick Pos"]],"2":[[" ","Sucursales con Quick Pos"]],"3":[[" ","Documentación disponible en la documentación de implementación de QP."]],"id":"0"})

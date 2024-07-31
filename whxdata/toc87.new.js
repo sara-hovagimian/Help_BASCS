@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Cuentas","type":"item","tilePath":"","description":"","url":"BASCSHTML/Tabla__Cuentas.htm"},{"name":"Vistas","type":"item","tilePath":"","description":"","url":"BASCSHTML/Tabla__Vistas.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

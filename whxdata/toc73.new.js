@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Grupo de bienes de uso","type":"item","tilePath":"","description":"","url":"BASCSHTML/Tabla__Grupos_de_bienes_de_uso.htm"},{"name":"Ubicaciones físicas","type":"item","tilePath":"","description":"","url":"BASCSHTML/Tabla__Ubicaciones_físicas.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

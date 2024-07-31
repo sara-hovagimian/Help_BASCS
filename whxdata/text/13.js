@@ -1,0 +1,1 @@
+rh._.exports({"0":[[" ","Unidades logisticas"]],"1":[["Unidades logísticas"]],"2":[[" ","Unidades logísticas"]],"3":[[" ","Permite ingresar un código para las unidades logísticas."," "," ","Código"," "," ","Código identificatorio de la unidad logística."," "," ","Descripción"," "," ","Descripción de la unidad logística."]],"id":"13"})

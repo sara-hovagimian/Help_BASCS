@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Por comprobante","type":"item","tilePath":"","description":"","url":"BASCSHTML/Listado__Tasa_departamental_por_comprobante.htm"},{"name":"Por ítem","type":"item","tilePath":"","description":"","url":"BASCSHTML/Listado__Tasa_departamental_por_ítem.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

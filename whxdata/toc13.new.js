@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Ingreso","type":"item","tilePath":"","description":"","url":"BASCSHTML/Registro_de_cotizaciones.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

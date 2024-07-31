@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Ventas","type":"item","tilePath":"","description":"","url":"BASCSHTML/Consulta_de_ítems_(Ventas).htm"},{"name":"Compras","type":"item","tilePath":"","description":"","url":"BASCSHTML/Consulta_de_ítems_(Compras).htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

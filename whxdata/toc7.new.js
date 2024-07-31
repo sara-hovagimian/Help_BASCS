@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Novedades por cliente","type":"item","tilePath":"","description":"","url":"BASCSHTML/Novedades_por_cliente.htm"},{"name":"Novedades por atributo","type":"item","tilePath":"","description":"","url":"BASCSHTML/Novedades_por_atributo.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

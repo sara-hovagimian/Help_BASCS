@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Compras","type":"item","tilePath":"","description":"","url":"BASCSHTML/Listado__Ingresos_brutos_-_Compras.htm"},{"name":"Ventas","type":"item","tilePath":"","description":"","url":"BASCSHTML/Listado__Ingresos_brutos_-_Ventas.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

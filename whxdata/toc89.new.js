@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Definición de tablas","type":"item","tilePath":"","description":"","url":"BASCSHTML/Tabla__Tablas_de_índices_y_cotizaciones.htm"},{"name":"Carga de tablas","type":"item","tilePath":"","description":"","url":"BASCSHTML/Tabla__Indices_y_cotizaciones.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
