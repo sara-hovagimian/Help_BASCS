@@ -1722,10 +1722,6 @@
     </topic>
     
     <topic>
-      BASCSHTML\Parámetros__Autoriz__manual_de_comprobantes.htm
-    </topic>
-    
-    <topic>
       BASCSHTML\Parametros_autoriz_manual_de_ordenes_de_produccion.htm
     </topic>
     
@@ -1987,6 +1983,298 @@
     
     <topic>
       BASCSHTML\Prefijos_en_la_emision_de_informes_y_comprobantes.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Administracion_de_Documentos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Afectacion_Bienes_de_uso_Items.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Aplicaciones_en_comprobantes.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Autorizaciones.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\BCSImpIB__Importación_del_padrón_para_Ingresos_Brutos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\boton_provincias_para_IIBB_compras.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Boton_provincias_para_IIBB_en_Ventas.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_de_compras_Impuestos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_referenciados_cotizaciones.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_referenciados_de_Pedidos_de_venta.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_referenciados_de_Requerimientos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_referenciados_egreso_de_mercaderia.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_referenciados_facturas_compras.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_referenciados_ingreso_de_asientos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_referenciados_ordenes_compra.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_referenciados_Partes_de_producción.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_referenciados_Pedidos_internos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_referenciados_órdenes_de_producción.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Conciliación_bancaria_por_archivo.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Control_de_cantidades.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Control_de_productos_terminados.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Cálculo_de_totales_del_comprobante.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Detalle_de_auditoria_de_cierres.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Domicilios.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Ejemplo_asiento_de_materiales.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\emision_por_base_informes.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Emisión.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Estados_Carpeta_de_Importación_Versión_XE_.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Estimacion_de_costos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Evento.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Factor_de_Precosteo.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Fechas_avance_y_operaciones_de_la_tarea.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Ficha_Clientes.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Ficha_Empresas.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Ficha_Proveedores.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Ficha_Retención_de_ganancias.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Ficha_retención_de_I_V_A.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Fiscalización_manual.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Formato_archivos_utilitarios.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\formato_de_importación_de_listas_de_precios.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Gastos_Carpeta_de_Importacion.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Grilla_Domicilios.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Impresion_automatica_Consideraciones.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\impresion_de_comprobantes_de_retenciones.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Importar_archivo_de_inventario.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Lineas_de_comprobantes_de_compras.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Lineas_de_comprobantes_de_egreso.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Lineas_de_control_de_ingresos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Lineas_de_Pedidos_y_Facturas.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Listado_documentos_valorizados_tener_en_cuenta.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Modificacion_de_inventario_Items.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\movimientos_depositos_planta.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Necesidad_de_abastecimiento_por_comprobante.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Necesidad_de_abastecimiento_por_item.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Ordenamiento_Aplicaciones.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\ordenamiento_de_datos_en_consultas.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Otras_retenciones.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Período_a_considerar.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Prefijo_de_comprobantes_externos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Provincias_para_ingresos_brutos_en_Ventas.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Refrescar.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Remito_carnico.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Retención_de_IIBB_en_recibos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Retención_de_ingresos_brutos_en_pagos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Retención_de_SUSS_en_pagos_y_recibos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\seleccion_comprobantes.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Tareas_de_la_orden_de_produccion.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Ver_aplicaciones.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\ver_ultimos_movimientos_consultas.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_referenciados_facturas.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Comprobantes_referenciados_ingreso_de_materiales.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Ficha_Productos.htm
+    </topic>
+    
+    <topic>
+      BASCSHTML\Lineas_de_comprobantes_de_ingreso.htm
     </topic>
     
   </topiclist>

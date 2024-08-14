@@ -41,10 +41,12 @@
       <sidebar_glossary_tab_active_tablet_image>glossary_tab_active.png</sidebar_glossary_tab_active_tablet_image>
       <sidebar_index_tab_active_tablet_image>index_tab_active.png</sidebar_index_tab_active_tablet_image>
       <sidebar_toc_tab_active_tablet_image>toc_tab_active.png</sidebar_toc_tab_active_tablet_image>
+      <title_font_family>Calibri</title_font_family>
       <index_tab_image>index_desktop.png</index_tab_image>
       <glossary_tab_image>glossary_desktop.png</glossary_tab_image>
       <filter_tab_image>filter_desktop.png</filter_tab_image>
       <filter_applied_tab_image>filter_desktop_applied.png</filter_applied_tab_image>
+      <page_font_family>Calibri</page_font_family>
       <close_sidebar_image>slider_ltr.png</close_sidebar_image>
       <functionbar_border_color>#232323</functionbar_border_color>
       <goto_top_image>top.png</goto_top_image>
@@ -116,6 +118,8 @@
       <custom_button_image_2>print_desktop.png</custom_button_image_2>
     </css>
     <html>
+      <title_font_family>Calibri</title_font_family>
+      <page_font_family>Calibri</page_font_family>
       <default_pane>toc</default_pane>
       <custom_buttons type="array">
         <custom_buttonsitem>

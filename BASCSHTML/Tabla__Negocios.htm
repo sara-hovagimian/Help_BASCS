@@ -15,12 +15,12 @@
   <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css"/>
   <meta name="topic-status" content="Draft"/>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="generator" content="Adobe RoboHelp 2022"/>
-<title>Negocios</title>
-<link rel="StyleSheet" href="../assets/css/Manual-Salary.css" type="text/css"/>
-
-<meta name="rh-index-keywords" content="Negocios"/></head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Negocios</title>
+  <link rel="StyleSheet" href="../assets/css/Manual-Salary.css" type="text/css"/>
+  <meta name="rh-index-keywords" content="Negocios"/>
+</head>
 
 <body>
   <div class="topic-header rh-hide" id="rh-topic-header">
@@ -39,60 +39,53 @@
 
 
 
-<h1>Negocios (Versión XE)</h1>
-<p class="H_Texto">Aquí se definen los negocios que se desean administrar con BAS CS.</p>
-<p class="H_Texto">Los negocios se pueden asociar a las operaciones de compras y ventas dependiendo de los <a href="Tabla__Centros_de_apropiación.htm">centros de apropiación</a> de cada operación. Por eso, al definir centros de apropiación se podrá indicar si cada uno administra o no negocios.</p>
-<p class="H_Texto">Para los centros de apropiación que administren negocios, se llevará el registro de a qué negocio se asocia cada operación.</p>
-<p class="H_Texto">Los negocios contienen datos como descripción, <a href="Tabla__Tablas_de_índices_y_cotizaciones.htm">moneda</a> , importe presupuestado, fecha, <a href="Tabla__Clientes.htm">cliente</a> , etc.; y además pueden tener asociados <a href="Tabla__Atributos.htm">atributos</a> y valores de atributos.</p>
-<p class="H_Texto">Cada vez que se ingrese un comprobante de compras o de ventas y en una línea del comprobante, se solicite el ingreso de un centro de apropiación, si dicho centro administra negocios, se solicitará el ingreso del negocio al que corresponde dicha transacción.</p>
-<p class="H_Texto">Se prevé además la posibilidad de efectuar el cierre de un negocio. Una vez cerrado, no se le podrán imputar más transacciones a dicho negocio.</p>
-<p class="H_Texto">La información a ingresar al definir negocios es la siguiente:</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Código</p>
-<p class="H_Parrafo_de_Item">Código de hasta quince caracteres que identifica al negocio y será utilizado para individualizar al mismo en todo el sistema.</p>
-<p class="H_Parrafo_de_Item">Por ejemplo, <font style="font-weight: bold;">ADMNegV-1,</font> <font style="font-weight: bold;">N1500</font>, <font style="font-weight: bold;">Neg01/99</font>, <font style="font-weight: bold;">00001</font>, etc.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Descripción</p>
-<p class="H_Parrafo_de_Item">Denominación del negocio. Se dispone de hasta treinta caracteres para el ingreso.</p>
-<p class="H_Parrafo_de_Item">Esta información se visualizará en todos los informes en los que intervenga el negocio que se está definiendo.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Fecha</p>
-<p class="H_Parrafo_de_Item">Fecha del negocio que se está definiendo.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Cliente</p>
-<p class="H_Parrafo_de_Item">Código del <a href="Tabla__Clientes.htm">cliente</a> titular del negocio que se está definiendo.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Importe presupuestado</p>
-<p class="H_Parrafo_de_Item">Importe presupuestado para el negocio que se está definiendo.</p>
-<p class="H_Parrafo_de_Item">Este importe debe ingresarse expresado en la <a href="Tabla__Tablas_de_índices_y_cotizaciones.htm">moneda</a> del negocio.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Moneda</p>
-<p class="H_Parrafo_de_Item">Número de moneda del negocio.</p>
-<p class="H_Parrafo_de_Item">Debe corresponder al número de una tabla de tipo <font style="font-weight: bold;">Cotización</font>.</p>
-<p class="H_Parrafo_de_Item">Si no se indica ningún valor se asume que el negocio se administra en moneda local. Si se ingresa una moneda, los importes de los ingresos y egresos del negocio se administrarán en esa moneda.</p>
-<p class="H_Parrafo_de_Item">Los informes de negocios mostrarán los valores expresados en la moneda que aquí se indique.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Observaciones</p>
-<p class="H_Parrafo_de_Item">Texto aclaratorio a asociar al negocio.</p>
-<p class="H_Parrafo_de_Item">Aparece junto a él en todos los informes que lo incluyen.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Check.gif" alt="BASCSIMAG\Check.gif" width="24" height="24" border="0"/> No permitir imputar el negocio a otro cliente</p>
-<p class="H_Parrafo_de_Item">Al abrir un nuevo negocio la opción se ofrece tildada, o no, dependiendo de lo que se indique en el parámetro No permitir por defecto asociar a un cliente diferente al del negocio (Configuración / Parámetros generales). Puede modificarse libremente.</p>
-<p class="H_Parrafo_de_Item">En caso que esté activada el negocio sólo puede referenciarse en comprobantes que tengan por titular al cliente del mismo.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Grilla.gif" alt="BASCSIMAG\Grilla.gif" width="24" height="24" border="0"/> Tabla de Atributos</p>
-<p class="H_Parrafo_de_Item">Esta tabla permite informar los <a href="Tabla__Atributos.htm">atributos</a> que se le asocian al negocio con sus valores.</p>
-<p class="H_Parrafo_de_Item">En muchos casos se hace necesario asociar determinadas características e información para categorizar o agrupar negocios. A título de ejemplo, podemos mencionar, los centros de apropiación a los que se asocian, la línea de productos que administran, etc.</p>
-<p class="H_Parrafo_de_Item">Estas características a asignar, que serán propias de cada negocio, se informan al sistema mediante el uso de <font style="font-weight: bold;">Atributos</font>.</p>
-<p class="H_Parrafo_de_Item">Si por ejemplo se desea incorporar el tipo de productos como un dato adicional asociado a los mismos, se definirá, por ejemplo, un atributo de nombre <font style="font-weight: bold;">Tipo de Productos</font> cuyos valores correspondan a los tipos que interese distinguir (por ejemplo, bienes, servicios, componentes, conjuntos, etc.). Luego, al incorporar cada negocio al sistema, se le asociará el atributo definido y el valor que le corresponda, en función del tipo de productos que administren.</p>
-<p class="H_Parrafo_de_Item">El uso de los <a href="Tabla__Atributos.htm">atributos</a> posibilita seleccionar de distintas maneras a los negocios que se desea incluir en los diferentes informes del sistema.</p>
-
-<p class="H_Sub_Item_con_vineta_negrita rl-p-H_Sub_Item_con_vineta_negrita">Código</p>
-
-<p class="H_Parrafo_de_Sub-Item">Código del <a href="Tabla__Atributos.htm">atributo</a> a asociar al negocio. Debe corresponder a un atributo ya definido en el sistema y debe ser aplicable a <font style="font-weight: bold;">Negocios</font>.</p>
-
-<p class="H_Sub_Item_con_vineta_negrita rl-p-H_Sub_Item_con_vineta_negrita">Descripción</p>
-
-<p class="H_Parrafo_de_Sub-Item">Exhibe la descripción del atributo correspondiente al código informado.</p>
-
-<p class="H_Sub_Item_con_vineta_negrita rl-p-H_Sub_Item_con_vineta_negrita">Valor</p>
-
-<p class="H_Parrafo_de_Sub-Item">Valor del atributo informado que se le define al negocio. Debe corresponder a un valor ya definido en el sistema y asociado al atributo indicado en el campo <font style="font-weight: bold;">Código</font>.</p>
-
-<p class="H_Sub_Item_con_vineta_negrita rl-p-H_Sub_Item_con_vineta_negrita">Descripción</p>
-
-<p class="H_Parrafo_de_Sub-Item">Exhibe la descripción del valor asociado al atributo correspondiente al código informado.</p>
-
+  <h1>Negocios</h1>
+  <p class="H_Texto">Aquí se definen los negocios que se desean administrar con BAS CS.</p>
+  <p class="H_Texto">Los negocios se pueden asociar a las operaciones de compras y ventas dependiendo de los <a href="Tabla__Centros_de_apropiación.htm">centros de apropiación</a> de cada operación. Por eso, al definir centros de apropiación se podrá indicar si cada uno administra o no negocios.</p>
+  <p class="H_Texto">Para los centros de apropiación que administren negocios, se llevará el registro de a qué negocio se asocia cada operación.</p>
+  <p class="H_Texto">Los negocios contienen datos como descripción, <a href="Tabla__Tablas_de_índices_y_cotizaciones.htm">moneda</a> , importe presupuestado, fecha, <a href="Tabla__Clientes.htm">cliente</a> , etc.; y además pueden tener asociados <a href="Tabla__Atributos.htm">atributos</a> y valores de atributos.</p>
+  <p class="H_Texto">Cada vez que se ingrese un comprobante de compras o de ventas y en una línea del comprobante, se solicite el ingreso de un centro de apropiación, si dicho centro administra negocios, se solicitará el ingreso del negocio al que corresponde dicha transacción.</p>
+  <p class="H_Texto">Se prevé además la posibilidad de efectuar el cierre de un negocio. Una vez cerrado, no se le podrán imputar más transacciones a dicho negocio.</p>
+  <p class="H_Texto">La información a ingresar al definir negocios es la siguiente:</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Código</p>
+  <p class="H_Parrafo_de_Item">Código de hasta quince caracteres que identifica al negocio y será utilizado para individualizar al mismo en todo el sistema.</p>
+  <p class="H_Parrafo_de_Item">Por ejemplo, <font style="font-weight: bold;">ADMNegV-1,</font>
+    <font style="font-weight: bold;">N1500</font>, <font style="font-weight: bold;">Neg01/99</font>, <font style="font-weight: bold;">00001</font>, etc.
+  </p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Descripción</p>
+  <p class="H_Parrafo_de_Item">Denominación del negocio. Se dispone de hasta treinta caracteres para el ingreso.</p>
+  <p class="H_Parrafo_de_Item">Esta información se visualizará en todos los informes en los que intervenga el negocio que se está definiendo.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Fecha</p>
+  <p class="H_Parrafo_de_Item">Fecha del negocio que se está definiendo.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Cliente</p>
+  <p class="H_Parrafo_de_Item">Código del <a href="Tabla__Clientes.htm">cliente</a> titular del negocio que se está definiendo.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Importe presupuestado</p>
+  <p class="H_Parrafo_de_Item">Importe presupuestado para el negocio que se está definiendo.</p>
+  <p class="H_Parrafo_de_Item">Este importe debe ingresarse expresado en la <a href="Tabla__Tablas_de_índices_y_cotizaciones.htm">moneda</a> del negocio.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Moneda</p>
+  <p class="H_Parrafo_de_Item">Número de moneda del negocio.</p>
+  <p class="H_Parrafo_de_Item">Debe corresponder al número de una tabla de tipo <font style="font-weight: bold;">Cotización</font>.</p>
+  <p class="H_Parrafo_de_Item">Si no se indica ningún valor se asume que el negocio se administra en moneda local. Si se ingresa una moneda, los importes de los ingresos y egresos del negocio se administrarán en esa moneda.</p>
+  <p class="H_Parrafo_de_Item">Los informes de negocios mostrarán los valores expresados en la moneda que aquí se indique.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Observaciones</p>
+  <p class="H_Parrafo_de_Item">Texto aclaratorio a asociar al negocio.</p>
+  <p class="H_Parrafo_de_Item">Aparece junto a él en todos los informes que lo incluyen.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Check.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Check.gif" width="24"/> No permitir imputar el negocio a otro cliente</p>
+  <p class="H_Parrafo_de_Item">Al abrir un nuevo negocio la opción se ofrece tildada, o no, dependiendo de lo que se indique en el parámetro No permitir por defecto asociar a un cliente diferente al del negocio (Configuración / Parámetros generales). Puede modificarse libremente.</p>
+  <p class="H_Parrafo_de_Item">En caso que esté activada el negocio sólo puede referenciarse en comprobantes que tengan por titular al cliente del mismo.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Grilla.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Grilla.gif" width="24"/> Tabla de Atributos</p>
+  <p class="H_Parrafo_de_Item">Esta tabla permite informar los <a href="Tabla__Atributos.htm">atributos</a> que se le asocian al negocio con sus valores.</p>
+  <p class="H_Parrafo_de_Item">En muchos casos se hace necesario asociar determinadas características e información para categorizar o agrupar negocios. A título de ejemplo, podemos mencionar, los centros de apropiación a los que se asocian, la línea de productos que administran, etc.</p>
+  <p class="H_Parrafo_de_Item">Estas características a asignar, que serán propias de cada negocio, se informan al sistema mediante el uso de <font style="font-weight: bold;">Atributos</font>.</p>
+  <p class="H_Parrafo_de_Item">Si por ejemplo se desea incorporar el tipo de productos como un dato adicional asociado a los mismos, se definirá, por ejemplo, un atributo de nombre <font style="font-weight: bold;">Tipo de Productos</font> cuyos valores correspondan a los tipos que interese distinguir (por ejemplo, bienes, servicios, componentes, conjuntos, etc.). Luego, al incorporar cada negocio al sistema, se le asociará el atributo definido y el valor que le corresponda, en función del tipo de productos que administren.</p>
+  <p class="H_Parrafo_de_Item">El uso de los <a href="Tabla__Atributos.htm">atributos</a> posibilita seleccionar de distintas maneras a los negocios que se desea incluir en los diferentes informes del sistema.</p>
+  <p class="H_Sub_Item_con_vineta_negrita rl-p-H_Sub_Item_con_vineta_negrita">Código</p>
+  <p class="H_Parrafo_de_Sub-Item">Código del <a href="Tabla__Atributos.htm">atributo</a> a asociar al negocio. Debe corresponder a un atributo ya definido en el sistema y debe ser aplicable a <font style="font-weight: bold;">Negocios</font>.</p>
+  <p class="H_Sub_Item_con_vineta_negrita rl-p-H_Sub_Item_con_vineta_negrita">Descripción</p>
+  <p class="H_Parrafo_de_Sub-Item">Exhibe la descripción del atributo correspondiente al código informado.</p>
+  <p class="H_Sub_Item_con_vineta_negrita rl-p-H_Sub_Item_con_vineta_negrita">Valor</p>
+  <p class="H_Parrafo_de_Sub-Item">Valor del atributo informado que se le define al negocio. Debe corresponder a un valor ya definido en el sistema y asociado al atributo indicado en el campo <font style="font-weight: bold;">Código</font>.</p>
+  <p class="H_Sub_Item_con_vineta_negrita rl-p-H_Sub_Item_con_vineta_negrita">Descripción</p>
+  <p class="H_Parrafo_de_Sub-Item">Exhibe la descripción del valor asociado al atributo correspondiente al código informado.</p>
 
 </body></html>

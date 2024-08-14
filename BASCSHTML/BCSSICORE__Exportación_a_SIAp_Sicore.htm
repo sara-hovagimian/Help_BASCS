@@ -15,12 +15,12 @@
   <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css"/>
   <meta name="topic-status" content="Draft"/>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="generator" content="Adobe RoboHelp 2022"/>
-<title>S.I.Ap. SICORE</title>
-<link rel="StyleSheet" href="../assets/css/Manual-Salary.css" type="text/css"/>
-
-<meta name="rh-index-keywords" content="S.I.Ap. SICORE"/></head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>S.I.Ap. SICORE</title>
+  <link rel="StyleSheet" href="../assets/css/Manual-Salary.css" type="text/css"/>
+  <meta name="rh-index-keywords" content="S.I.Ap. SICORE"/>
+</head>
 
 <body>
   <div class="topic-header rh-hide" id="rh-topic-header">
@@ -39,653 +39,653 @@
 
 
 
-<h1>S.I.Ap. SICORE</h1>
-<p class="H_Texto">A través de este aplicativo es posible generar archivos que contengan toda la información relativa a las retenciones y percepciones efectuadas e ingresadas en BAS CS.</p>
-<p class="H_Texto">Es importante tener en cuenta que si se usan los utilitarios de BASCS para generar la información correspondiente al SIAP para retenciones y percepciones, el campo Exigir el código de régimen en tablas de percepciones/retenciones de la solapa Datos impositivos del ABM de empresas debe estar tildado. De esta manera, todos los comprobantes que contengan retenciones o percepciones tendrán asociado el código de régimen correspondiente.</p>
-<p class="H_Texto">Los archivos son dos, uno de ellos contendrá algunos de los datos relacionados con los sujetos a los cuales se les efectuaron retenciones y/o percepciones durante un período dado. El otro contendrá los datos correspondientes a dichas retenciones y percepciones. Los archivos pueden, o no, generarse en forma conjunta.</p>
-<p class="H_Texto">Ambos archivos cuentan con un formato apto para ser importados en el Sistema de Control de Retenciones (SICORE) del S.I.Ap.</p>
-<p class="H_Texto">El utilitario dispone de los menús de trabajo <font style="font-weight: bold;">Operación y Configuración</font>.</p>
-<p class="H_Texto_subrayado_arial_9">Menú Configuración</p>
-<p class="H_Texto_subrayado_arial_9">Sinónimos</p>
-<p class="H_Texto">A través de las tareas indicadas en <font style="font-weight: bold;">Sinónimos</font> se puede asociar a cada tipo de documento, tratamiento impositivo y provincia, definido en BAS C/S, un código establecido por la resolución y aceptado por el utilitario, y a cada país, definido en BAS C/S, un C.U.I.T. En cada una de estas tareas se podrán consultar los códigos establecidos por la resolución que son aceptados por el utilitario.</p>
-<p class="H_Texto_subrayado_arial_9">Tipos de documentos</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Grilla.gif" alt="BASCSIMAG\Grilla.gif" width="24" height="24" border="0"/> Tabla de tipos de Documentos</p>
-<p class="H_Parrafo_de_Item">Se deben informar, para los códigos de los tipos de documentos definidos en BAS CS, los códigos administrados por el SICORE.</p>
-<p class="H_Texto_subrayado_arial_9">Tratamientos impositivos</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Grilla.gif" alt="BASCSIMAG\Grilla.gif" width="24" height="24" border="0"/> Tabla de tratamientos impositivos</p>
-<p class="H_Parrafo_de_Item">Análogamente, para los tratamientos impositivos definidos en BAS CS, se definirán sinónimos según los requiere el SICORE .</p>
-<p class="H_Texto_subrayado_arial_9">Provincias</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Grilla.gif" alt="BASCSIMAG\Grilla.gif" width="24" height="24" border="0"/> Tabla de provincias</p>
-<p class="H_Parrafo_de_Item">Se deben establecer los códigos de las provincias a las que corresponden los sujetos que han de exportarse. Es decir los códigos de las provincias asociadas en BAS CS a los proveedores y/o clientes a quienes se les han efectuado retenciones o percepciones durante un determinado período, respectivamente.</p>
-<p class="H_Parrafo_de_Item">Cabe destacar que si no se informa provincia para alguno de los sujetos exportados, el programa BCSSICORE le asignará a dicho sujeto el código de provincia número 99.</p>
-<p class="H_Texto_subrayado_arial_9">Países</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Grilla.gif" alt="BASCSIMAG\Grilla.gif" width="24" height="24" border="0"/> Tabla de paises</p>
-<p class="H_Parrafo_de_Item">Se deben establecer sinónimos para los países definidos en BAS CS, acorde a lo requerido por el SICORE.</p>
-<p class="H_Texto_subrayado_arial_9" style="margin-top: 0; margin-bottom: 0;"> </p>
-<p class="H_Texto_subrayado_arial_9">Menú “Operación”</p>
-<p class="H_Texto">Esta ventana presenta dos tareas. La primera, llamada Exportación permite generar los archivos a exportar. La otra, denominada Números de retención, está destinada a relacionar los números de retención y la numeración que asigna el aplicativo SICORE.</p>
-<p class="H_Texto_subrayado_arial_9">Exportación</p>
-<p class="H_Texto">En esta ventana se realiza la generación de archivos propiamente dicha siendo posible generar archivos de:</p>
-
-<p class="H_Sub_Item_con_vineta rl-p-H_Sub_Item_con_vineta">Exportación de sujetos retenidos</p>
-
-<p class="H_Sub_Item_con_vineta rl-p-H_Sub_Item_con_vineta">Exportación de retenciones y percepciones</p>
-
-<p class="H_Texto">La generación de estos archivos puede efectuarse en forma conjunta, o en dos etapas.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Frame.gif" alt="BASCSIMAG\Frame.gif" width="24" height="24" border="0"/> Exportación de sujetos retenidos</p>
-<p class="H_Parrafo_de_Item">Completando la información de este cuadro se obtendrá un archivo conteniendo los datos correspondientes a los sujetos a los cuales se les efectuaron retenciones y/o percepciones durante el período que se especifique.</p>
-<p class="H_Sub-Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Check.gif" alt="BASCSIMAG\Check.gif" width="24" height="24" border="0"/> Generar archivo</p>
-<p class="H_Parrafo_de_Sub-Item">Este campo se debe tildar si se desea generar el archivo correspondiente a sujetos retenidos.</p>
-<p class="H_Sub-Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Formato</p>
-<p class="H_Parrafo_de_Sub-Item">En el campo Formato se ofrecen los códigos de los formatos estándar previstos por BAS CS para generar los archivos. Pueden consultarse todos los formatos disponibles pulsando F3.</p>
-<p class="H_Parrafo_de_Sub-Item">Si se desea acceder a las características y al detalle de un formato se debe presionar la tecla F4 estando ubicados en el campo formato que se quiere consultar o definir. Debe tenerse en cuenta que los formatos estándar se pueden modificar pero no eliminar.</p>
-<p class="H_Parrafo_de_Sub-Item">El formato con que se guarda este archivo es el que se detalla:</p>
-<table style="border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; border-collapse: separate;" cellspacing="0" width="578" cellpadding="1">
-<tbody><tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Denominación del campo</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Desde</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Hasta</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Tipo de dato</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Long.</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Formato</p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Número de documento del retenido</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">001</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">011</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Alfabético</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">11</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Si no presenta CUIT, CUIL o CDI, se asigna 80</p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Razón social</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">012</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">031</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Alfabético</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">20</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Domicilio fiscal</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">032</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">051</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Alfabético</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">20 (**)</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Localidad</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">052</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">071</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Alfabético</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">20</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Provincia</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">072</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">073</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">2</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Código postal</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">074</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">081</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Alfabético</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">8</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Tipo de documento del retenido</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">082</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">083</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">2</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Si no presenta CUIT, CUIL o CDI, se asigna 27000000008</p>
-</td>
-</tr>
-</tbody></table>
-<p class="H_Texto" style="margin-top: 0; margin-bottom: 0;"> </p>
-<p class="H_Parrafo_de_Sub-Item">Este utilitario permite detallar los 50 primeros caracteres de la razón social de los sujetos a importar si se personaliza el formato de importación correspondiente a éstos. En este caso se debe indicar que la razón social vaya desde la posición 84 a la 133 en lugar de que vaya de la 012 a la 031 que corresponde al formato estándar de importación.</p>
-<p class="H_Parrafo_de_Sub-Item">En el caso de incluir a los beneficiarios del exterior, la estructura de los registros es la misma salvo que, en ese caso, cada registro presenta además, ubicados al final, los siguientes datos:</p>
-<table style="border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; border-collapse: separate;" cellspacing="0" width="359" cellpadding="1">
-<tbody><tr style="vertical-align: top;">
-<td style="width: 44.74%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Denominación del ordenante</p>
-</td>
-<td style="width: 55.26%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">longitud 30 (alfanumérico)</p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 44.74%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Acrecentamiento</p>
-</td>
-<td style="width: 55.26%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">longitud 1 (entero)</p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 44.74%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">C.U.I.T. del país del retenido</p>
-</td>
-<td style="width: 55.26%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">longitud 11 (alfanumérico)</p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 44.74%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">C.U.I.T. del ordenante</p>
-</td>
-<td style="width: 55.26%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">longitud 11 (alfanumérico)</p>
-</td>
-</tr>
-</tbody></table>
-<p class="H_Parrafo_de_Sub-Item">De estos datos, sólo es obligatorio el C.U.I.T. del país del retenido si el sujeto presenta tipo de documento 83 (ident. tributaria del exterior) u 84 (documento del exterior) por lo que los restantes se completarán con espacios.</p>
-<p class="H_Sub-Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Nombre del archivo</p>
-<p class="H_Parrafo_de_Sub-Item">Se deberá informar el nombre y la ubicación del archivo a generar</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Foco.gif" alt="BASCSIMAG\Foco.gif" width="24" height="24" border="0"/> Para tener en cuenta</p>
-<p class="H_Parrafo_de_Item">Es importante destacar que el proceso sólo considerará los clientes y proveedores de BAS CS titulares de comprobantes cuya fecha corresponda al período seleccionado, que presenten régimen de percepción o retención (según sea el caso), es decir, que tengan una categoría de percepción o retención asociada en su tratamiento impositivo, y cuyo total en moneda local sea mayor o igual a cero.</p>
-<p class="H_Parrafo_de_Item">Si un sujeto se importase más de una vez para un período determinado quedará dado de alta con la información correspondiente al último registro importado. Los sujetos quedan determinados por el tipo y número de documento.</p>
-<p class="H_Parrafo_de_Item">Es importante aclarar que en el caso en que no se haya informado el código de alguna, o algunas, de las provincias asociadas a los sujetos (clientes o proveedores), el aplicativo asignará en forma arbitraria el código de provincia 99.</p>
-<p class="H_Parrafo_de_Item">Del mismo modo, para aquellos sujetos (sean estos clientes o proveedores) para los cuales no se informó en BAS CS el número de CUIT, CUIL o CDI correspondiente, el programa le asignará arbitrariamente durante el proceso de generación el CUIT 27000000008, de acuerdo al artículo 11 de la R.G. 738.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Frame.gif" alt="BASCSIMAG\Frame.gif" width="24" height="24" border="0"/> Exportación de retenciones y percepciones</p>
-<p class="H_Parrafo_de_Item">Desde los campos de este cuadro se definen los elementos necesarios para generar un archivo conteniendo los datos correspondientes a las retenciones y/o percepciones efectuadas durante el período que se especifique.</p>
-<p class="H_Sub-Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Check.gif" alt="BASCSIMAG\Check.gif" width="24" height="24" border="0"/> Generar archivo</p>
-<p class="H_Parrafo_de_Sub-Item">Este campo se debe tildar si se desea generar el archivo correspondiente a retenciones y percepciones.</p>
-<p class="H_Sub-Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Formato</p>
-<p class="H_Parrafo_de_Sub-Item">En el campo Formato se ofrecen los códigos de los formatos estándar previstos por BAS CS para generar los archivos. Pueden consultarse todos los formatos disponibles pulsando F3.</p>
-<p class="H_Parrafo_de_Sub-Item">Si se desea acceder a las características y al detalle de un formato se debe presionar la tecla F4 estando ubicados en el campo formato que se quiere consultar o definir. Debe tenerse en cuenta que los formatos estándar se pueden modificar pero no eliminar.</p>
-<p class="H_Parrafo_de_Sub-Item">El formato de exportación de este archivo es el siguiente:</p>
-<table style="border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; border-collapse: separate;" cellspacing="0" width="578" cellpadding="1">
-<tbody><tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Denominación del campo</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Desde</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Hasta</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Tipo de dato</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Longitud</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Formato</p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Código comprobante</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">1</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">2</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">2</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Fecha de emisión del comprobante</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">3</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">12</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Fecha</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">10</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">DD/MM/yyyy</p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Número del comprobante</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">13</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">28</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">16</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Ej.: 000100000002</p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Importe del comprobante</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">29</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">44</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">16</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Código de impuesto</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">45</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">47</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">3</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Código de régimen</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">48</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">50</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">3</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Código de operación</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">51</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">51</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">1</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Base de cálculo</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">52</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">65</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">14</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Fecha de emisión de la retención</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">66</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">75</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Fecha</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">10</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">DD/MM/yyyy</p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Código de condición</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">76</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">77</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">2</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Importe de la retención</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">78</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">91</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">14</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Porcentaje de exclusión</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">92</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">97</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">6</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto"> </p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Fecha de emisión del boletín</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">98</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">107</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Fecha</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">10</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">DD/MM/yyyy</p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Tipo de documento del retenido</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">108</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">109</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">2</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Si no presenta CUIT, CUIL o CDI, se asigna 80</p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Número de documento del retenido</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">110</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">129</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Alfanumérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">20</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Si no presenta CUIT, CUIL o CDI, se asigna 27000000008</p>
-</td>
-</tr>
-<tr style="vertical-align: top;">
-<td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Número de certificado original</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">130</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">143</p>
-</td>
-<td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Numérico</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">14</p>
-</td>
-<td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
-<p class="H_Texto">Cero</p>
-</td>
-</tr>
-</tbody></table>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Foco.gif" alt="BASCSIMAG\Foco.gif" width="24" height="24" border="0"/> Para tener en cuenta</p>
-<p class="H_Parrafo_de_Item">Es importante destacar que durante el proceso sólo se considerarán los comprobantes cuya fecha corresponda al período seleccionado, siempre que incluyan algún régimen y su total en moneda local sea mayor a cero.</p>
-<p class="H_Parrafo_de_Item">Por cada régimen distinto que aparezca en un comprobante, se generará un registro. Cabe observar que cada uno de estos registros, a través de la importación al SICORE, será dado de alta con el mismo número de comprobante.</p>
-<p class="H_Parrafo_de_Item">Otro consideración a tener en cuenta es que el proceso de importación al SICORE asigna automáticamente números de certificado a las órdenes de pago y números de certificado cero a los restantes tipos de comprobantes que consideremos.</p>
-<p class="H_Parrafo_de_Item">Hay tipos de percepciones que requieren que la base de cálculo incluya el I.V.A., por lo que si se pretende que la base de cálculo se tome de esa manera, es decir, que incluya el acumulado del gravado, el I.V.A. y el I.V.A. No Inscripto, se deberá dar de alta el código de régimen del que se trate en el submenú Tablas/Regímenes del menú Configuración.</p>
-<p class="H_Parrafo_de_Item">En forma análoga a lo que sucede al exportar sujetos, si durante la generación, el programa detecta que no todos los códigos de documentos o de descripciones de IVA han sido informados, desplegará un mensaje de error que permitirá, a su vez, acceder a un detalle de las líneas que contienen error.</p>
-<p class="H_Parrafo_de_Item">Es importante tener en cuenta que durante este proceso sólo se consideran los comprobantes cuya fecha corresponda al período seleccionado, que presenten régimen, y cuyo total en moneda local sea mayor o igual a cero.</p>
-<p class="H_Parrafo_de_Item">Para la exportación de retenciones sólo se consideran las órdenes de pago, y para las percepciones sólo se consideran los comprobantes de ventas.</p>
-<p class="H_Parrafo_de_Item">El campo Código de régimen tomará el código de la tabla Regimenes asociado al comprobante que con el que se calculó la retención.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Flecha_opciones.gif" alt="BASCSIMAG\Flecha_opciones.gif" width="24" height="24" border="0"/> Período</p>
-<p class="H_Parrafo_de_Item">Mes y año de la información que se desea incluir en el archivo.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Desde día / Hasta día</p>
-<p class="H_Parrafo_de_Item">Rango de días que se desean tener en cuenta para generar el archivo</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Empresa</p>
-<p class="H_Parrafo_de_Item">Código de la empresa de la cual se desea generar el archivo.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Check.gif" alt="BASCSIMAG\Check.gif" width="24" height="24" border="0"/> Incluir retenciones/percepciones en cero</p>
-<p class="H_Parrafo_de_Item">Al tildar este campo se incluirán, en el archivo resultante, los sujetos para los cuales no se generaron percepciones durante el período.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Check.gif" alt="BASCSIMAG\Check.gif" width="24" height="24" border="0"/> Incluir operaciones con beneficiarios del exterior</p>
-<p class="H_Parrafo_de_Item">Se dispone de este campo destinado a indicar si se desea incluir en los archivos generados, operaciones con beneficiarios del exterior.</p>
-<p class="H_Parrafo_de_Item">Vale aclarar que el formato de exportación será distinto según se tilde, o no, este campo, pero, en ambos casos, el formato coincidirá con el establecido por el SICORE.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Boton_generico.gif" alt="BASCSIMAG\Boton_generico.gif" width="24" height="24" border="0"/> Generar</p>
-<p class="H_Parrafo_de_Item">Al presionar este botón se genera el/los archivo/s deseado/s.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Foco.gif" alt="BASCSIMAG\Foco.gif" width="24" height="24" border="0"/> Para tener en cuenta</p>
-<p class="H_Parrafo_de_Item">Los formatos estándar que ofrece BAS CS pueden modificarse. Para hacerlo se puede consultar en <a href="Tabla__Formatos_de_Exportación.htm">formatos de archivos de exportación</a>.</p>
-<p class="H_Texto_subrayado_arial_9">Números de retención</p>
-<p class="H_Texto">Esta tarea permite relacionar los números de retención y la numeración que asigna el aplicativo SICORE con la registrada en el sistema.</p>
-<p class="H_Texto">La tarea consiste en precargar en la ventana los comprobantes registrados en BAS CS que correspondan e indicar, para cada uno de ellos, la numeración del SICORE:</p>
-<p class="H_Texto">La precarga puede realizarse importando la información desde un archivo o precargando los comprobantes desde BAS CS.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Boton_generico.gif" alt="BASCSIMAG\Boton_generico.gif" width="24" height="24" border="0"/> Importar</p>
-<p class="H_Parrafo_de_Item">Para precargar la información desde un archivo se debe presionar el botón Importar. Al presionarlo se despliega una ventana para completar la información correspondiente al formato que se desea importar.</p>
-<p class="H_Sub-Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Formato</p>
-<p class="H_Parrafo_de_Sub-Item">Código del formato que se desea importar.</p>
-<p class="H_Sub-Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/campo_para_dato.gif" alt="BASCSIMAG\campo_para_dato.gif" width="23" height="13" border="0"/> Archivo</p>
-<p class="H_Parrafo_de_Sub-Item">Descripción del formato que se desea informar.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Boton_generico.gif" alt="BASCSIMAG\Boton_generico.gif" width="24" height="24" border="0"/> Precargar</p>
-<p class="H_Parrafo_de_Item">También es posible precargar todas las retenciones de ganancias o I.V.A existentes, o bien sólo las pendientes, mediante el botón Precarga</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Check.gif" alt="BASCSIMAG\Check.gif" width="24" height="24" border="0"/> Sólo pendientes</p>
-<p class="H_Parrafo_de_Item">Si se desea cargar sólo las pendientes bastará con tildar este campo.</p>
-<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BASCSIMAG/Foco.gif" alt="BASCSIMAG\Foco.gif" width="24" height="24" border="0"/> Para tener en cuenta</p>
-<p class="H_Texto">Pueden seleccionar directamente los comprobantes, presionando la tecla F3 en la columna Número ret. En ese caso se abre una ventana de búsqueda en la cual se podrán seleccionar uno o más registros correspondientes a retenciones de ganancias o I.V.A. existentes. Recuérdese que por tratarse de una ventana de búsqueda, se podrá refinar la búsqueda haciendo uso de los filtros disponibles.</p>
-<p class="H_Texto">Una vez que se carguen los comprobantes en la grilla se podrán asignar o modificar los números</p>
-<p class="H_Texto">Cuando habiendo algo precargado/ importado en la grilla se intente precargar/ importar nuevamente se indicará si se debe blanquear o no. Sólo procederá a cargar/ importar nuevamente cuando se indique que la blanquee.</p>
-
-<p class="H_Item_con_vineta rl-p-H_Item_con_vineta">Cuando teniendo precargados /importados registros en la grilla se seleccionen registros a través de la tecla F3, se podrá decidir perder, o no, el contenido existente en ésta.</p>
-
-<p class="H_Parrafo_de_Item">Cuando se decida no perder lo precargado/ importado y el proceso intente incluir algún registro ya existente en ésta, avisará que ya existe en grilla y si se desea perder todos los datos cargados. En caso afirmativo blanqueará la grilla, caso contrario la dejará como estaba.</p>
-<p class="H_Parrafo_de_Item">Si los registros seleccionados no se corresponden con ninguno de los existentes los incluirá, sin que salga aviso alguno, ubicándolos de acuerdo al orden que presente la grilla en ese momento.</p>
-<p class="H_Texto">Vale aclarar que este proceso no realiza ningún tipo de validación sobre los datos.</p>
-<p class="H_Texto">Cabe observar que, en las emisiones personalizadas de los informes de retenciones realizadas de ganancias o I.V.A. detalladas, se podrán detallar los números del aplicativo SICORE asociados a números de retención mediante esta tarea (NroAplicativo).</p>
-
+  <h1>S.I.Ap. SICORE</h1>
+  <p class="H_Texto">A través de este aplicativo es posible generar archivos que contengan toda la información relativa a las retenciones y percepciones efectuadas e ingresadas en BAS CS.</p>
+  <p class="H_Texto">Es importante tener en cuenta que si se usan los utilitarios de BASCS para generar la información correspondiente al SIAP para retenciones y percepciones, el campo Exigir el código de régimen en tablas de percepciones/retenciones de la solapa Datos impositivos del ABM de empresas debe estar tildado. De esta manera, todos los comprobantes que contengan retenciones o percepciones tendrán asociado el código de régimen correspondiente.</p>
+  <p class="H_Texto">Los archivos son dos, uno de ellos contendrá algunos de los datos relacionados con los sujetos a los cuales se les efectuaron retenciones y/o percepciones durante un período dado. El otro contendrá los datos correspondientes a dichas retenciones y percepciones. Los archivos pueden, o no, generarse en forma conjunta.</p>
+  <p class="H_Texto">Ambos archivos cuentan con un formato apto para ser importados en el Sistema de Control de Retenciones (SICORE) del S.I.Ap.</p>
+  <p class="H_Texto">El utilitario dispone de los menús de trabajo <font style="font-weight: bold;">Operación y Configuración</font>.</p>
+  <p class="H_Item_con_imagen_negrita">Menú Configuración</p>
+  <p class="H_Item_con_imagen_negrita">Sinónimos</p>
+  <p class="H_Texto">A través de las tareas indicadas en <font style="font-weight: bold;">Sinónimos</font> se puede asociar a cada tipo de documento, tratamiento impositivo y provincia, definido en BAS C/S, un código establecido por la resolución y aceptado por el utilitario, y a cada país, definido en BAS C/S, un C.U.I.T. En cada una de estas tareas se podrán consultar los códigos establecidos por la resolución que son aceptados por el utilitario.</p>
+  <p class="H_Item_con_imagen_negrita">Tipos de documentos</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Grilla.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Grilla.gif" width="24"/> Tabla de tipos de Documentos</p>
+  <p class="H_Parrafo_de_Item">Se deben informar, para los códigos de los tipos de documentos definidos en BAS CS, los códigos administrados por el SICORE.</p>
+  <p class="H_Item_con_imagen_negrita">Tratamientos impositivos</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Grilla.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Grilla.gif" width="24"/> Tabla de tratamientos impositivos</p>
+  <p class="H_Parrafo_de_Item">Análogamente, para los tratamientos impositivos definidos en BAS CS, se definirán sinónimos según los requiere el SICORE .</p>
+  <p class="H_Item_con_imagen_negrita">Provincias</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Grilla.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Grilla.gif" width="24"/> Tabla de provincias</p>
+  <p class="H_Parrafo_de_Item">Se deben establecer los códigos de las provincias a las que corresponden los sujetos que han de exportarse. Es decir los códigos de las provincias asociadas en BAS CS a los proveedores y/o clientes a quienes se les han efectuado retenciones o percepciones durante un determinado período, respectivamente.</p>
+  <p class="H_Parrafo_de_Item">Cabe destacar que si no se informa provincia para alguno de los sujetos exportados, el programa BCSSICORE le asignará a dicho sujeto el código de provincia número 99.</p>
+  <p class="H_Item_con_imagen_negrita">Países</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Grilla.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Grilla.gif" width="24"/> Tabla de paises</p>
+  <p class="H_Parrafo_de_Item">Se deben establecer sinónimos para los países definidos en BAS CS, acorde a lo requerido por el SICORE.</p>
+  <p class="H_Texto_subrayado_arial_9" style="margin-top: 0; margin-bottom: 0;"></p>
+  <p class="H_Item_con_imagen_negrita">Menú “Operación”</p>
+  <p class="H_Texto">Esta ventana presenta dos tareas. La primera, llamada Exportación permite generar los archivos a exportar. La otra, denominada Números de retención, está destinada a relacionar los números de retención y la numeración que asigna el aplicativo SICORE.</p>
+  <p class="H_Item_con_imagen_negrita">Exportación</p>
+  <p class="H_Texto">En esta ventana se realiza la generación de archivos propiamente dicha siendo posible generar archivos de:</p>
+  <p class="H_Sub_Item_con_vineta rl-p-H_Sub_Item_con_vineta">Exportación de sujetos retenidos</p>
+  <p class="H_Sub_Item_con_vineta rl-p-H_Sub_Item_con_vineta">Exportación de retenciones y percepciones</p>
+  <p class="H_Texto">La generación de estos archivos puede efectuarse en forma conjunta, o en dos etapas.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Frame.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Frame.gif" width="24"/> Exportación de sujetos retenidos</p>
+  <p class="H_Parrafo_de_Item">Completando la información de este cuadro se obtendrá un archivo conteniendo los datos correspondientes a los sujetos a los cuales se les efectuaron retenciones y/o percepciones durante el período que se especifique.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BASCSIMAG\Check.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Check.gif" width="24"/> Generar archivo</p>
+  <p class="H_Parrafo_de_Sub-Item">Este campo se debe tildar si se desea generar el archivo correspondiente a sujetos retenidos.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Formato</p>
+  <p class="H_Parrafo_de_Sub-Item">En el campo Formato se ofrecen los códigos de los formatos estándar previstos por BAS CS para generar los archivos. Pueden consultarse todos los formatos disponibles pulsando F3.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se desea acceder a las características y al detalle de un formato se debe presionar la tecla F4 estando ubicados en el campo formato que se quiere consultar o definir. Debe tenerse en cuenta que los formatos estándar se pueden modificar pero no eliminar.</p>
+  <p class="H_Parrafo_de_Sub-Item">El formato con que se guarda este archivo es el que se detalla:</p>
+  <table cellpadding="1" cellspacing="0" style="border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; border-collapse: separate;" width="578">
+    <tbody>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Denominación del campo</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Desde</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Hasta</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Tipo de dato</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Long.</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Formato</p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Número de documento del retenido</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">001</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">011</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Alfabético</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">11</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Si no presenta CUIT, CUIL o CDI, se asigna 80</p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Razón social</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">012</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">031</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Alfabético</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">20</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Domicilio fiscal</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">032</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">051</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Alfabético</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">20 (**)</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Localidad</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">052</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">071</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Alfabético</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">20</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Provincia</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">072</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">073</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">2</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Código postal</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">074</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">081</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Alfabético</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">8</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Tipo de documento del retenido</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">082</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">083</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">2</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Si no presenta CUIT, CUIL o CDI, se asigna 27000000008</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="H_Texto" style="margin-top: 0; margin-bottom: 0;"></p>
+  <p class="H_Parrafo_de_Sub-Item">Este utilitario permite detallar los 50 primeros caracteres de la razón social de los sujetos a importar si se personaliza el formato de importación correspondiente a éstos. En este caso se debe indicar que la razón social vaya desde la posición 84 a la 133 en lugar de que vaya de la 012 a la 031 que corresponde al formato estándar de importación.</p>
+  <p class="H_Parrafo_de_Sub-Item">En el caso de incluir a los beneficiarios del exterior, la estructura de los registros es la misma salvo que, en ese caso, cada registro presenta además, ubicados al final, los siguientes datos:</p>
+  <table cellpadding="1" cellspacing="0" style="border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; border-collapse: separate;" width="359">
+    <tbody>
+      <tr style="vertical-align: top;">
+        <td style="width: 44.74%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Denominación del ordenante</p>
+        </td>
+        <td style="width: 55.26%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">longitud 30 (alfanumérico)</p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 44.74%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Acrecentamiento</p>
+        </td>
+        <td style="width: 55.26%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">longitud 1 (entero)</p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 44.74%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">C.U.I.T. del país del retenido</p>
+        </td>
+        <td style="width: 55.26%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">longitud 11 (alfanumérico)</p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 44.74%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">C.U.I.T. del ordenante</p>
+        </td>
+        <td style="width: 55.26%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">longitud 11 (alfanumérico)</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="H_Parrafo_de_Sub-Item">De estos datos, sólo es obligatorio el C.U.I.T. del país del retenido si el sujeto presenta tipo de documento 83 (ident. tributaria del exterior) u 84 (documento del exterior) por lo que los restantes se completarán con espacios.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Nombre del archivo</p>
+  <p class="H_Parrafo_de_Sub-Item">Se deberá informar el nombre y la ubicación del archivo a generar</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Foco.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Foco.gif" width="24"/> Para tener en cuenta</p>
+  <p class="H_Parrafo_de_Item">Es importante destacar que el proceso sólo considerará los clientes y proveedores de BAS CS titulares de comprobantes cuya fecha corresponda al período seleccionado, que presenten régimen de percepción o retención (según sea el caso), es decir, que tengan una categoría de percepción o retención asociada en su tratamiento impositivo, y cuyo total en moneda local sea mayor o igual a cero.</p>
+  <p class="H_Parrafo_de_Item">Si un sujeto se importase más de una vez para un período determinado quedará dado de alta con la información correspondiente al último registro importado. Los sujetos quedan determinados por el tipo y número de documento.</p>
+  <p class="H_Parrafo_de_Item">Es importante aclarar que en el caso en que no se haya informado el código de alguna, o algunas, de las provincias asociadas a los sujetos (clientes o proveedores), el aplicativo asignará en forma arbitraria el código de provincia 99.</p>
+  <p class="H_Parrafo_de_Item">Del mismo modo, para aquellos sujetos (sean estos clientes o proveedores) para los cuales no se informó en BAS CS el número de CUIT, CUIL o CDI correspondiente, el programa le asignará arbitrariamente durante el proceso de generación el CUIT 27000000008, de acuerdo al artículo 11 de la R.G. 738.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Frame.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Frame.gif" width="24"/> Exportación de retenciones y percepciones</p>
+  <p class="H_Parrafo_de_Item">Desde los campos de este cuadro se definen los elementos necesarios para generar un archivo conteniendo los datos correspondientes a las retenciones y/o percepciones efectuadas durante el período que se especifique.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BASCSIMAG\Check.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Check.gif" width="24"/> Generar archivo</p>
+  <p class="H_Parrafo_de_Sub-Item">Este campo se debe tildar si se desea generar el archivo correspondiente a retenciones y percepciones.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Formato</p>
+  <p class="H_Parrafo_de_Sub-Item">En el campo Formato se ofrecen los códigos de los formatos estándar previstos por BAS CS para generar los archivos. Pueden consultarse todos los formatos disponibles pulsando F3.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se desea acceder a las características y al detalle de un formato se debe presionar la tecla F4 estando ubicados en el campo formato que se quiere consultar o definir. Debe tenerse en cuenta que los formatos estándar se pueden modificar pero no eliminar.</p>
+  <p class="H_Parrafo_de_Sub-Item">El formato de exportación de este archivo es el siguiente:</p>
+  <table cellpadding="1" cellspacing="0" style="border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; border-collapse: separate;" width="578">
+    <tbody>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Denominación del campo</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Desde</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Hasta</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Tipo de dato</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Longitud</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Formato</p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Código comprobante</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">1</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">2</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">2</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Fecha de emisión del comprobante</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">3</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">12</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Fecha</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">10</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">DD/MM/yyyy</p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Número del comprobante</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">13</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">28</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">16</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Ej.: 000100000002</p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Importe del comprobante</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">29</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">44</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">16</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Código de impuesto</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">45</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">47</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">3</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Código de régimen</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">48</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">50</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">3</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Código de operación</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">51</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">51</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">1</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Base de cálculo</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">52</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">65</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">14</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Fecha de emisión de la retención</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">66</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">75</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Fecha</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">10</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">DD/MM/yyyy</p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Código de condición</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">76</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">77</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">2</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Importe de la retención</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">78</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">91</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">14</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Porcentaje de exclusión</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">92</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">97</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">6</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto"></p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Fecha de emisión del boletín</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">98</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">107</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Fecha</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">10</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">DD/MM/yyyy</p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Tipo de documento del retenido</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">108</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">109</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">2</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Si no presenta CUIT, CUIL o CDI, se asigna 80</p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Número de documento del retenido</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">110</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">129</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Alfanumérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">20</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Si no presenta CUIT, CUIL o CDI, se asigna 27000000008</p>
+        </td>
+      </tr>
+      <tr style="vertical-align: top;">
+        <td style="width: 15.63%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Número de certificado original</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">130</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">143</p>
+        </td>
+        <td style="width: 16.87%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Numérico</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">14</p>
+        </td>
+        <td style="width: 16.88%; border-top: 0.50pt solid #000000; border-bottom: 0.50pt solid #000000; border-left: 0.50pt solid #000000; border-right: 0.50pt solid #000000; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+          <p class="H_Texto">Cero</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Foco.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Foco.gif" width="24"/> Para tener en cuenta</p>
+  <p class="H_Parrafo_de_Item">Es importante destacar que durante el proceso sólo se considerarán los comprobantes cuya fecha corresponda al período seleccionado, siempre que incluyan algún régimen y su total en moneda local sea mayor a cero.</p>
+  <p class="H_Parrafo_de_Item">Por cada régimen distinto que aparezca en un comprobante, se generará un registro. Cabe observar que cada uno de estos registros, a través de la importación al SICORE, será dado de alta con el mismo número de comprobante.</p>
+  <p class="H_Parrafo_de_Item">Otro consideración a tener en cuenta es que el proceso de importación al SICORE asigna automáticamente números de certificado a las órdenes de pago y números de certificado cero a los restantes tipos de comprobantes que consideremos.</p>
+  <p class="H_Parrafo_de_Item">Hay tipos de percepciones que requieren que la base de cálculo incluya el I.V.A., por lo que si se pretende que la base de cálculo se tome de esa manera, es decir, que incluya el acumulado del gravado, el I.V.A. y el I.V.A. No Inscripto, se deberá dar de alta el código de régimen del que se trate en el submenú Tablas/Regímenes del menú Configuración.</p>
+  <p class="H_Parrafo_de_Item">En forma análoga a lo que sucede al exportar sujetos, si durante la generación, el programa detecta que no todos los códigos de documentos o de descripciones de IVA han sido informados, desplegará un mensaje de error que permitirá, a su vez, acceder a un detalle de las líneas que contienen error.</p>
+  <p class="H_Parrafo_de_Item">Es importante tener en cuenta que durante este proceso sólo se consideran los comprobantes cuya fecha corresponda al período seleccionado, que presenten régimen, y cuyo total en moneda local sea mayor o igual a cero.</p>
+  <p class="H_Parrafo_de_Item">Para la exportación de retenciones sólo se consideran las órdenes de pago, y para las percepciones sólo se consideran los comprobantes de ventas.</p>
+  <p class="H_Parrafo_de_Item">El campo Código de régimen tomará el código de la tabla Regimenes asociado al comprobante que con el que se calculó la retención.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Flecha_opciones.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Flecha_opciones.gif" width="24"/> Período</p>
+  <p class="H_Parrafo_de_Item">Mes y año de la información que se desea incluir en el archivo.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Desde día / Hasta día</p>
+  <p class="H_Parrafo_de_Item">Rango de días que se desean tener en cuenta para generar el archivo</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Empresa</p>
+  <p class="H_Parrafo_de_Item">Código de la empresa de la cual se desea generar el archivo.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Check.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Check.gif" width="24"/> Incluir retenciones/percepciones en cero</p>
+  <p class="H_Parrafo_de_Item">Al tildar este campo se incluirán, en el archivo resultante, los sujetos para los cuales no se generaron percepciones durante el período.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Check.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Check.gif" width="24"/> Incluir operaciones con beneficiarios del exterior</p>
+  <p class="H_Parrafo_de_Item">Se dispone de este campo destinado a indicar si se desea incluir en los archivos generados, operaciones con beneficiarios del exterior.</p>
+  <p class="H_Parrafo_de_Item">Vale aclarar que el formato de exportación será distinto según se tilde, o no, este campo, pero, en ambos casos, el formato coincidirá con el establecido por el SICORE.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Boton_generico.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Boton_generico.gif" width="24"/> Generar</p>
+  <p class="H_Parrafo_de_Item">Al presionar este botón se genera el/los archivo/s deseado/s.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Foco.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Foco.gif" width="24"/> Para tener en cuenta</p>
+  <p class="H_Parrafo_de_Item">Los formatos estándar que ofrece BAS CS pueden modificarse. Para hacerlo se puede consultar en <a href="Tabla__Formatos_de_Exportación.htm">formatos de archivos de exportación</a>.</p>
+  <p class="H_Item_con_imagen_negrita">Números de retención</p>
+  <p class="H_Texto">Esta tarea permite relacionar los números de retención y la numeración que asigna el aplicativo SICORE con la registrada en el sistema.</p>
+  <p class="H_Texto">La tarea consiste en precargar en la ventana los comprobantes registrados en BAS CS que correspondan e indicar, para cada uno de ellos, la numeración del SICORE:</p>
+  <p class="H_Texto">La precarga puede realizarse importando la información desde un archivo o precargando los comprobantes desde BAS CS.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Boton_generico.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Boton_generico.gif" width="24"/> Importar</p>
+  <p class="H_Parrafo_de_Item">Para precargar la información desde un archivo se debe presionar el botón Importar. Al presionarlo se despliega una ventana para completar la información correspondiente al formato que se desea importar.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Formato</p>
+  <p class="H_Parrafo_de_Sub-Item">Código del formato que se desea importar.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BASCSIMAG\campo_para_dato.gif" border="0" height="13" src="../assets/images/BASCSIMAG/campo_para_dato.gif" width="23"/> Archivo</p>
+  <p class="H_Parrafo_de_Sub-Item">Descripción del formato que se desea informar.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Boton_generico.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Boton_generico.gif" width="24"/> Precargar</p>
+  <p class="H_Parrafo_de_Item">También es posible precargar todas las retenciones de ganancias o I.V.A existentes, o bien sólo las pendientes, mediante el botón Precarga</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Check.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Check.gif" width="24"/> Sólo pendientes</p>
+  <p class="H_Parrafo_de_Item">Si se desea cargar sólo las pendientes bastará con tildar este campo.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BASCSIMAG\Foco.gif" border="0" height="24" src="../assets/images/BASCSIMAG/Foco.gif" width="24"/> Para tener en cuenta</p>
+  <p class="H_Texto">Pueden seleccionar directamente los comprobantes, presionando la tecla F3 en la columna Número ret. En ese caso se abre una ventana de búsqueda en la cual se podrán seleccionar uno o más registros correspondientes a retenciones de ganancias o I.V.A. existentes. Recuérdese que por tratarse de una ventana de búsqueda, se podrá refinar la búsqueda haciendo uso de los filtros disponibles.</p>
+  <p class="H_Texto">Una vez que se carguen los comprobantes en la grilla se podrán asignar o modificar los números</p>
+  <p class="H_Texto">Cuando habiendo algo precargado/ importado en la grilla se intente precargar/ importar nuevamente se indicará si se debe blanquear o no. Sólo procederá a cargar/ importar nuevamente cuando se indique que la blanquee.</p>
+  <p class="H_Item_con_vineta rl-p-H_Item_con_vineta">Cuando teniendo precargados /importados registros en la grilla se seleccionen registros a través de la tecla F3, se podrá decidir perder, o no, el contenido existente en ésta.</p>
+  <p class="H_Parrafo_de_Item">Cuando se decida no perder lo precargado/ importado y el proceso intente incluir algún registro ya existente en ésta, avisará que ya existe en grilla y si se desea perder todos los datos cargados. En caso afirmativo blanqueará la grilla, caso contrario la dejará como estaba.</p>
+  <p class="H_Parrafo_de_Item">Si los registros seleccionados no se corresponden con ninguno de los existentes los incluirá, sin que salga aviso alguno, ubicándolos de acuerdo al orden que presente la grilla en ese momento.</p>
+  <p class="H_Texto">Vale aclarar que este proceso no realiza ningún tipo de validación sobre los datos.</p>
+  <p class="H_Texto">Cabe observar que, en las emisiones personalizadas de los informes de retenciones realizadas de ganancias o I.V.A. detalladas, se podrán detallar los números del aplicativo SICORE asociados a números de retención mediante esta tarea (NroAplicativo).</p>
 
 </body></html>
